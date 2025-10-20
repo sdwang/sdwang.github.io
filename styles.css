@@ -107,3 +107,13 @@ a:hover {
     color: #9cdcf5;
 }
 
+.story-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.story-list li {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
