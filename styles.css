@@ -117,3 +117,8 @@ a:hover {
     line-height: 1.8;
 }
 
+.narrator {
+    font-size: 0.9rem;
+    color: #999;
+}
+
