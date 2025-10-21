@@ -111,6 +111,7 @@ p {
 a {
     color: #e6c16f;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 a:hover {
