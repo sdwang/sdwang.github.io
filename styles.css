@@ -119,6 +119,40 @@ a:hover {
     text-shadow: 0 0 12px rgba(240, 212, 137, 0.6);
 }
 
+a:focus {
+    outline: 2px solid #f0d489;
+    outline-offset: 2px;
+    color: #f0d489;
+}
+
+nav a:focus {
+    outline: 2px solid #f0d489;
+    outline-offset: 4px;
+}
+
+/* Skip to main content link */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #2a2a2a 0%, #1c1c1c 100%);
+    color: #e6c16f;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    z-index: 100;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    background: #1c1c1c;
+    color: #f0d489;
+    outline: 2px solid #e6c16f;
+    outline-offset: 2px;
+}
+
 .story-list {
     list-style: none;
     margin-top: 2rem;
