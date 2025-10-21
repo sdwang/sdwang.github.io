@@ -46,10 +46,10 @@ nav ul {
 }
 
 nav a {
-    color: #e6c16f;
+    color: #998855;
     text-decoration: none;
     font-size: 1.05rem;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -57,11 +57,13 @@ nav a {
 
 nav a:hover {
     color: #f0d489;
+    text-shadow: 0 0 8px rgba(240, 212, 137, 0.4);
 }
 
 nav a.active {
-    color: #f0d489;
-    font-weight: 600;
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 2px;
 }
 
 main {
