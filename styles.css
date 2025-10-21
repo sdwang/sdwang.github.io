@@ -57,12 +57,12 @@ nav a {
 
 nav a:hover {
     color: #f0d489;
-    text-shadow: 0 0 8px rgba(240, 212, 137, 0.4);
+    text-shadow: 0 0 12px rgba(240, 212, 137, 0.6);
 }
 
 nav a.active {
-    color: #ffd700;
-    border-bottom: 2px solid #ffd700;
+    color: #e6c16f;
+    border-bottom: 2px solid #e6c16f;
     padding-bottom: 2px;
 }
 
@@ -104,16 +104,18 @@ h2 {
 
 p {
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #c0c0c0;
 }
 
 a {
     color: #e6c16f;
+    transition: all 0.3s ease;
 }
 
 a:hover {
     color: #f0d489;
+    text-shadow: 0 0 12px rgba(240, 212, 137, 0.6);
 }
 
 .story-list {
@@ -124,6 +126,7 @@ a:hover {
 .story-list li {
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    font-size: 1.05rem;
 }
 
 .narrator {
